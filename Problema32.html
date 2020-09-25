@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <script>
+
+        alert ("Este programa calcula cuanto ganara un trabajador a la semana por sus horas trabajadas");
+
+        var horast = prompt ("Porfavor ingrese las horas que trabajo en la semana");
+
+        var pagoh = 50;
+        var pagohe = 100;
+
+        if (horast > 40)
+        {
+            var horasex = horast - 40;
+            var total = pagohe * horasex + 40 * pagoh;
+            alert ("Su sueldo es de " + total + " pesos"); 
+        } 
+        else
+        {
+            var total = horast * pagoh;
+            alert ("Su sueldo es de " + total + " pesos");
+        }
+
+    </script>
+</html>
